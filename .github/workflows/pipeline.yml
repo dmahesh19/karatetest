@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Execute the Tests
-        run :  docker run --rm -d -v ${PWD}:/usr/src/test -w /usr/src/test markhobson/maven-chrome:jdk-21 mvn test
+        run :  docker run --rm -v ${PWD}:/usr/src/test -w /usr/src/test markhobson/maven-chrome:jdk-21 mvn test
 
       - run: echo "🍏 This job's status is ${{ job.status }}."
