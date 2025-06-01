@@ -16,6 +16,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>1.43.0</version>  <!-- Use the latest version -->
+    </dependency>
+    <dependency>
       <groupId>io.karatelabs</groupId>
       <artifactId>karate-playwright</artifactId>
       <version>1.5.2.RC3</version>
