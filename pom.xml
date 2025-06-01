@@ -17,8 +17,14 @@
   <dependencies>
     <dependency>
       <groupId>io.karatelabs</groupId>
+      <artifactId>karate-playwright</artifactId>
+      <version>1.5.2.RC3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.karatelabs</groupId>
       <artifactId>karate-junit5</artifactId>
-      <version>1.5.1</version>
+      <version>1.5.2.RC3</version>
       <scope>test</scope>
     </dependency>
     <dependency>
